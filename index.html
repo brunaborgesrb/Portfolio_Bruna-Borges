@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Bruna Borges</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+   <!-- Dev Icon Fonts -->
+   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+   <!-- CSS do Projeto -->
+   <link rel="stylesheet" href="css/styles.css">
+
+   <!-- JS do Projeto -->
+   <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <main id="containers">
+
+        <section id="about-container">
+            <div class="central_cima">
+                <div id="lado_esquerdo">
+                    <h1 id="name"> Bruna Borges </h1>
+                    <p id="title"><span class="highlight">EU SOU SOFTWARE DEVELOPER </span></p>
+
+                    <p class="description"> <b> Técnica de Computação Gráfica no IFPE - Graduanda de Ciência da Computação na Unicap</b></p>
+
+                    <p class="description">Profissional técnica entusiasmada, focada no desenvolvimento de software. 
+                        Trabalho com excelência e organização, com o objetivo de resolver 
+                        problemas e inovar para contribuir eficientemente dentro da empresa. 
+                        Busco estar sempre em constante aprendizado e evolução profissional.
+                    </p>
+
+                    <button onclick="downloadCV()">Download CV</button>
+                </div>
+
+                <div id="lado_direito">
+                    <img id="bio-img" src="img/imagem.jpg" alt="Foto de Bruna">
+                </div>
+            </div>
+            <!-- primeira parte -->
+
+           
+
+            <!-- <a href="https://github.com/brunaborgesrb" id="btn-project"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a> -->
+
+
+            <!-- habilidades -->
+           <br>
+
+           <div id="habilidade_esquerdo">
+            <h2 id="skills-section-title"></h2>
+                <h1 class="highlight">SKILLS</h1>
+                <p class="description">Conheça as tecnologias que aprendi:</p>
+
+                <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title">Front-End</p>
+                            <i class="devicon-html5-plain colored"></i>
+                            <i class="devicon-css3-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                        </div>
+                                
+                            <div class="skills-box">
+                            <p class="skills-title">Back-End</p>
+                                <i class="devicon-java-plain colored"></i>
+                                <i class="devicon-python-plain colored"></i>       
+                                <i class="devicon-csharp-plain colored"></i>
+                                <i class="devicon-php-plain colored"></i>
+                                <img class="devicon" src="img/laravel.png" alt="Back-End Icon">
+                            </div>
+        
+                            <div class="skills-box">
+                                <p class="skills-title">Banco de Dados</p>    
+                                    <i class="devicon-mysql-original colored"></i>
+                                </div>
+        
+                            <div class="skills-box">
+                                <p class="skills-title">Design</p>    
+                                        <i class="devicon-figma-plain colored"></i>
+                                        <img class="devicon" src="img/photoshop.png" alt="Design Icon">
+                                        <img class="devicon" src="img/illustrator.png" alt="Design Icon">
+                                        <img class="devicon" src="img/sketchup.png" alt="Design Icon">
+                                        <img class="devicon" src="img/revit.png" alt="Design Icon">
+                                        
+                                </div>
+                  
+                            <div class="skills-box">
+                            <p class="skills-title">Ferramentas</p>
+                                <i class="devicon-git-plain-wordmark"></i>
+                                <i class="devicon-github-original"></i>
+                                
+                            </div>
+           </div>
+            
+          
+
+
+            <!-- projetos -->
+            <h1 id="skills-section-title" class="highlight">MEUS PROJETOS</h1>
+            <h3>Veja alguns dos meus projetos:</h3>
+            <div class="slider">
+                <div class="project-card">
+                    <img src="img/fila.avif" alt="Projeto 1">
+                    <h2>Fila de Clientes</h2>
+                    <p> Representação do método de organização FIFO.</p>
+                    <a href="https://github.com/brunaborgesrb/Fila-de-Clientes"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/user.avif" alt="Projeto 2">
+                    <h2>Registro de Usuários</h2>
+                    <p> Desenvolvimento de uma solução simulando o registro de usuário em uma aplicação. </p>
+                    <a href="https://github.com/brunaborgesrb/RegistroDeUsuario"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/jogos.jpeg" alt="Projeto 3">
+                    <h2>Catálogo de Jogos</h2>
+                    <p> Catálogo de jogos que permita ao usuário adicionar uma quantidade específica de jogos. </p>
+                    <a href="https://github.com/brunaborgesrb/CatalogoJogos"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/padaria.webp" alt="Projeto 4">
+                    <h2>Padaria</h2>
+                    <p>Projeto simples em HTML de uma padaria.</p>
+                    <a href="https://github.com/brunaborgesrb/Padaria"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/filme.jpg" alt="Projeto 5">
+                    <h2>Cadastro de Filmes</h2>
+                    <p>Aplicativo para armazenar e gerenciar as informações sobre os filmes por ela disponibilizados.</p>
+                    <a href="https://github.com/brunaborgesrb/Cadastro-de-Filmes"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/banco.avif" alt="Projeto 6">
+                    <h2>Sistema Bancário</h2>
+                    <p> Implementação de um sistema bancário em Java utilizando os conceitos de programação orientada a objetos.</p>
+                    <a href="https://github.com/brunaborgesrb/Sistema-Bancario-"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <img src="img/robo.webp" alt="Projeto 7">
+                    <h2>Controle de Velocidade de Robô </h2>
+                    <p> Software que simulea o controle de velocidade de um robô. Esse robô possui uma velocidade máxima e uma velocidade mínima.</p>
+                    <a href="https://github.com/brunaborgesrb/ControleDeVelocidadeDeRobo"><button class="button-card">Ver mais
+                    </button>
+                    </a>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+
+        
+
+        <div id="habilidade_esquerdo">
+            <!-- contatos -->
+            <h2 id="skills-section-title"></h2>
+
+            <div class="contact-container">
+                <h2>Entre em contato:</h2>
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/xwkgajbp" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="foneid" placeholder="(xx) xxxx-xxxx" name="fone" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="emailid" placeholder="seuemail@example.com" name="_replyto" />
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagemid" placeholder="Digite sua mensagem" name="mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="enviar">Enviar</button>
+                </form>
+            </div>
+        
+</div>
+
+<footer>
+    <p>Criado por Bruna Borges</p>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/bruna-borges-098a64200/" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/brunaborgesrb" target="_blank">
+            <img src="img/git.png" alt="GitHub">
+        </a>
+    </div>
+</footer>
+
+        </section>
+    </main>
+    
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+    <!-- Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
